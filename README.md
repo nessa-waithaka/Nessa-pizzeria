@@ -8,6 +8,8 @@
 
 ## Description
 
+This is a website for a pizza restaurant called Vee's pizzeria. The website allows users to view the restaurants menu, make their order and also to request delivery.
+
 ## Screenshots
 
 ## Setup/Installation Requirements

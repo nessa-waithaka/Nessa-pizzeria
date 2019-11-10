@@ -125,6 +125,9 @@ th {
 #pizzatotal {
   display: none;
 }
+#checkout {
+  display: none;
+}
 .delivery {
   display: none;
   margin: auto;

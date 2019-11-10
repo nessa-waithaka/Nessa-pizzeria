@@ -149,7 +149,11 @@ $(document).ready(function() {
 
     $("#btn_Checkout").click(function() {
       $("#pizzatotal").show();
+      $("#checkout").show();
       $("#pizzatotal").append("Your bill is ksh. " + checkoutBill);
+      $("#checkout").append(
+        "Thank you for ordering with us. Please pick up your order in 15 minutes. To request delivery plese press the delivery button."
+      );
     });
 
     $("#btn_Deliver").click(function() {
