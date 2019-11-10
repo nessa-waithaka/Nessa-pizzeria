@@ -263,11 +263,62 @@
                   </p>
                   <p id="order_received"></p>
                 </div>
+                <button
+                  class="btn btn-outline-warning btn-block mg-b-5"
+                  id="btn_addPizza"
+                >
+                  ADD PIZZA (Select pizza before you press the button)
+                </button>
+                <button
+                  class="btn btn-outline-warning btn-block mg-b-5"
+                  id="btn_Checkout"
+                >
+                  CHECKOUT
+                </button>
+                <button
+                  class="btn btn-outline-warning btn-block mg-b-5"
+                  id="btn_Deliver"
+                >
+                  DELIVERY
+                </button>
               </div>
             </div>
+          </div>
+          <div class="delivery">
+            <p>Please enter your delivery details below</p>
+            <form onsubmit="false" action="" id="form">
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="name"
+                  class="form-control mb-3"
+                  placeholder="Name"
+                />
+                <input
+                  type="number"
+                  id="phone"
+                  class="form-control mb-3"
+                  placeholder="Phone Number"
+                />
+                <input
+                  type="text"
+                  id="location"
+                  class="form-control mb-3"
+                  placeholder="Location for delivery"
+                />
+                <button
+                  class="btn btn-secondary bg-secondary "
+                  id="btn_confirm"
+                >
+                  Confirm Order
+                </button>
+              </div>
+            </form>
           </div>
         </div>
       </div>
     </div>
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>

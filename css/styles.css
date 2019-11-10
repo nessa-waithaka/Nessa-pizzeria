@@ -101,3 +101,45 @@ a {
   margin-bottom: 3%;
   margin-left: 5%;
 }
+#info {
+  font-size: 16px;
+  color: orangered;
+  width: 99%;
+}
+td,
+th {
+  font-size: 20px;
+  color: white;
+}
+
+#orders {
+  color: white;
+  font-size: 16px;
+}
+
+.choice {
+  /* display: none; */
+}
+#pizzatotal {
+  display: none;
+}
+.delivery {
+  display: none;
+  margin: auto;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.delivery p {
+  margin-top: 3%;
+  color: yellow;
+  font-size: 16px;
+  text-align: center;
+}
+#deliverymessage {
+  display: none;
+  color: yellow;
+}
+#order_received {
+  font-size: 25px;
+  color: yellow;
+}
