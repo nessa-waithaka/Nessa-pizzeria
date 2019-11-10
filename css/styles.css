@@ -89,3 +89,15 @@ a {
 #hawaiian p {
   margin-bottom: 5%;
 }
+.form {
+  /* display: none; */
+  width: 99%;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+#btnorder {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  margin-left: 5%;
+}
