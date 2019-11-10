@@ -10,7 +10,14 @@
 
 This is a website for a pizza restaurant called Vee's pizzeria. The website allows users to view the restaurants menu, make their order and also to request delivery.
 
+Link to live site: [https://nessa-waithaka.github.io/Nessa-pizzeria/](https://nessa-waithaka.github.io/Nessa-pizzeria/)
+
 ## Screenshots
+
+![SCREENSHOT](images/Screenshots/Screenshot1.png)
+![SCREENSHOT](images/Screenshots/Screenshot2.png)
+![SCREENSHOT](images/Screenshots/Screenshot3.png)
+![SCREENSHOT](images/Screenshots/Screenshot4.png)
 
 ## Setup/Installation Requirements
 
@@ -42,7 +49,7 @@ To start using this project use the following commands:
 
 ## Known Bugs
 
-Social media links currently not functioning. This will be fixed before deployment.
+Currently unaware of any bugs. In case of any bugs please contact me on [vanessa.waithaka@gmail.com](vanessa.waithaka@gmail.com).
 
 ## Support and contact details
 
