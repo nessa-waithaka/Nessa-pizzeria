@@ -148,3 +148,61 @@ th {
   font-size: 25px;
   color: yellow;
 }
+#contacts {
+  text-align: center;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+#contactUs {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+form input {
+  width: 36%;
+  background: whitesmoke;
+  border-radius: 50px;
+}
+form textarea {
+  background: whitesmoke;
+  border: 1px solid white;
+  color: white;
+  transition: all 0.4s ease;
+  margin-top: 25px;
+  margin-bottom: 4%;
+  width: 65%;
+}
+::placeholder {
+  color: black;
+}
+
+form input:focus,
+textarea:focus {
+  background: linear-gradient(to right, lightgrey, white);
+  color: black;
+  transform: scale(1);
+  border: transparent;
+}
+form input[type="submit"] {
+  color: whitesmoke;
+  background: rgb(224, 163, 82);
+  margin-bottom: 3%;
+  border-radius: 50px;
+  font-size: 1.5em;
+}
+form input[type="submit"]:hover {
+  background: silver;
+  border-radius: 35px;
+  outline: none;
+}
+
+#vee_details {
+  color: yellow;
+}
+#vee_details h3 {
+  color: white;
+}
