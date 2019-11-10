@@ -116,9 +116,11 @@ th {
   color: white;
   font-size: 16px;
 }
-
 .choice {
-  /* display: none; */
+  display: none;
+}
+#addedprice {
+  display: none;
 }
 #pizzatotal {
   display: none;
