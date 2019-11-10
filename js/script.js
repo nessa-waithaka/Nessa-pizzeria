@@ -152,6 +152,15 @@ $(document).ready(function() {
       $("#pizzatotal").append("Your bill is ksh. " + checkoutBill);
     });
 
+    $("#btn_Deliver").click(function() {
+      let deliveryBill = checkoutBill + 100;
+
+      $("#totalbill").append("Your total bill + delivery is: " + deliveryBill);
+      $("#addedprice").show();
+      $("#deliverymessage").show();
+      $(".delivery").show();
+    });
+
     event.preventDefault();
   });
 });
