@@ -161,6 +161,28 @@ $(document).ready(function() {
       $(".delivery").show();
     });
 
+    $("#btn_confirm").click(function(event) {
+      event.preventDefault();
+      let name = $("input#name").val();
+      let phone = $("input#phone").val();
+      let location = $("input#location").val();
+      let deliveryBill = checkoutBill + 100;
+
+      if (name == "" && phone == "" && location == "") {
+        alert("Please fill in the delivery details");
+      } else {
+        $("#order_received").append(
+          "Thank you " +
+            name +
+            ", for ordering with us! Your delivery wil be made  at " +
+            location +
+            ". Your total bill is " +
+            deliveryBill
+        );
+        $("#deliverymessage").hide();
+      }
+    });
+
     event.preventDefault();
   });
 });
