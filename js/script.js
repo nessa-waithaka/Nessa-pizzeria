@@ -147,6 +147,11 @@ $(document).ready(function() {
       );
     });
 
+    $("#btn_Checkout").click(function() {
+      $("#pizzatotal").show();
+      $("#pizzatotal").append("Your bill is ksh. " + checkoutBill);
+    });
+
     event.preventDefault();
   });
 });
