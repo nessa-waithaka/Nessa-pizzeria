@@ -30,7 +30,7 @@
           <br />
           <a href="index.html">HOME</a>
           <a href="#menu">MENU</a>
-          <a href="#delivery">DELIVERY</a>
+          <a href=".delivery">DELIVERY</a>
           <a href="#contact">CONTACT US</a>
         </div>
       </div>
@@ -101,6 +101,133 @@
               Order Me Now!
             </button>
             <br />
+          </div>
+        </div>
+      </div>
+      <div id="order" class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <div id="f1" class="form" action="">
+              <label for="select">Select Pizza</label>
+              <select
+                class="browser-default custom-select custom-select-md mb-3"
+                id="pizza"
+              >
+                <option selected value="0">Select Pizza</option>
+                <option value="pepperoni">Pepperoni</option>
+                <option value="vegetable">Vegetable</option>
+                <option value="hawaiian">Hawaiian</option>
+              </select>
+              <label for="select">Select Size</label>
+              <select
+                class="browser-default custom-select custom-select-md mb-3"
+                id="size"
+              >
+                <option selected value="0">Select your preferred size</option>
+                <option value="mega">Mega -- sh. 1050</option>
+                <option value="large">Large -- sh. 850</option>
+                <option value="medium">Medium -- sh. 700</option>
+                <option value="small">Small -- sh. 500</option>
+              </select>
+              <label for="crust">Choose your favorite Crust!</label>
+              <select
+                class="browser-default custom-select custom-select-md mb-3"
+                id="crust"
+              >
+                <option selected value="0">Pick your crust!</option>
+                <option value="Crispy">Crispy -- sh. 200</option>
+                <option value="Stuffed">Stuffed -- sh. 150</option>
+                <option value="Gluten-free">Gluten-free-- sh. 180</option>
+              </select>
+              <br />
+              <br />
+              <label for="Toppings"
+                >Select Your preferred Toppings: (each at 150)
+              </label>
+              <br />
+              <div class="custom-control custom-checkbox custom-control-inline">
+                <input
+                  type="checkbox"
+                  class="custom-control-input"
+                  id="Pepperoni"
+                  value="Pepperoni"
+                  name="toppings"
+                />
+                <label class="custom-control-label" for="Pepperoni"
+                  >Pepperoni</label
+                >
+              </div>
+              <div class="custom-control custom-checkbox custom-control-inline">
+                <input
+                  type="checkbox"
+                  class="custom-control-input"
+                  id="Chicken"
+                  value="Chicken"
+                  name="toppings"
+                />
+                <label class="custom-control-label" for="Chicken"
+                  >Chicken</label
+                >
+              </div>
+              <div class="custom-control custom-checkbox custom-control-inline">
+                <input
+                  type="checkbox"
+                  class="custom-control-input"
+                  id="Pineapple"
+                  value="Pineapple"
+                  name="toppings"
+                />
+                <label class="custom-control-label" for="Pineapple"
+                  >Pineapple</label
+                >
+              </div>
+              <div class="custom-control custom-checkbox custom-control-inline">
+                <input
+                  type="checkbox"
+                  class="custom-control-input"
+                  id="Bacon"
+                  value="Bacon"
+                  name="toppings"
+                />
+                <label class="custom-control-label" for="Bacon">Bacon</label>
+              </div>
+              <div class="custom-control custom-checkbox custom-control-inline">
+                <input
+                  type="checkbox"
+                  class="custom-control-input"
+                  id="Tomatoes"
+                  value="Tomatoes"
+                  name="toppings"
+                />
+                <label class="custom-control-label" for="Tomatoes"
+                  >Tomatoes</label
+                >
+              </div>
+              <div class="custom-control custom-checkbox custom-control-inline">
+                <input
+                  type="checkbox"
+                  class="custom-control-input"
+                  id="Cheese"
+                  value="Cheese"
+                  name="toppings"
+                />
+                <label class="custom-control-label" for="Cheese">Cheese</label>
+              </div>
+              <div class="custom-control custom-checkbox custom-control-inline">
+                <input
+                  type="checkbox"
+                  class="custom-control-input"
+                  id="Olives"
+                  value="Olives"
+                  name="toppings"
+                />
+                <label class="custom-control-label" for="Olives">Olives</label>
+              </div>
+              <br />
+              <button id="btnorder" type="submit" class="btn btn-info proceed">
+                ORDER
+              </button>
+            </div>
           </div>
         </div>
       </div>
