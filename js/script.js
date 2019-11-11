@@ -132,7 +132,7 @@ $(document).ready(function() {
         total
       );
 
-      $("#ordersmade").append(
+      $("#finalorder").append(
         `<tr><td id="pName">` +
           newOrder.name +
           `</td><td id="pSize"> ` +
@@ -160,7 +160,7 @@ $(document).ready(function() {
       let deliveryBill = checkoutBill + 100;
 
       $("#totalbill").append("Your total bill + delivery is: " + deliveryBill);
-      $("#addedprice").show();
+      $("#deliveryprice").show();
       $("#deliverymessage").show();
       $(".delivery").show();
     });
